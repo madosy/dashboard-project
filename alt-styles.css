@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: max(300px) 1fr;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.side-nav {
+    background-color: #AAC4FF;
+    grid-column: span 1;
+    grid-row: 1 / -1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-nav {
+    background-color: #B1B2FF;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 15px 40px 30px 40px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 1,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48;
+          position: relative;
+          top: 3px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="side-nav">
+            <div class="logo">
+                <img class="logo-image" src="./img/view-dashboard.svg" alt="">
+                <div class="logo-title">Dashboard</div>
+            </div>
+            <div class="user-options">
+                <ul class="user-options">
+                    <li><a href="#"><span class="material-symbols-outlined">home</span> <span class="text">Home</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        badge
+                        </span> <span class="text">Profile</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        chat
+                        </span> <span class="text">Messages</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        history
+                        </span> <span class="text">History</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        task_alt
+                        </span> <span class="text">Tasks</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        forum
+                        </span> <span class="text">Communities</span></a></li>
+                </ul>
+            </div>
+            <div class="site-options">
+                <li><a href="#"><span class="material-symbols-outlined">
+                    settings
+                    </span> <span class="text">Settings</span></a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                    support_agent
+                    </span> <span class="text">Support</span></a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                    verified_user
+                    </span><span class="text">Privacy</span></a></li>
+            </div>
+        </div>
+        <div class="top-nav">
+            <div class="search-bar">
+                <img class="icon" src="./img/search.svg" alt="">
+                <input type="text" name="search" class="search">
+                <button class="alert"><span style="font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 48;" class="material-symbols-outlined">
+                    notifications_active
+                    </span></button>
+                <div class="user-profile-pic"></div>
+                <span class="user-name">Dasom Heo</span>
+            </div>
+            <div class="header">
+                <div class="user-profile-pic"></div>
+                
+                <div class="welcome-text">
+                    <div class="flavor">Hi there,</div>
+                    <div class="user-info">
+                        <span class="user-name">Dasom Heo</span>
+                        <span class="user-id">(@moodymadosy)</span>
+                    </div>
+                </div>
+                <div class="project-buttons">
+                    <button class="project">New</button>
+                    <button class="project">Upload</button>
+                    <button class="project">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="projects">
+                <h2>Your Projects:</h2>
+                <div class="card">
+                    <span class="title">Super Cool Project</span>
+                    <div class="card-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est distinctio voluptatibus modi quidem nulla laudantium.
+                    </div>
+                    <div class="project-buttons">
+                        <div class="star"></div>
+                        <div class="watch"></div>
+                        <div class="share"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <span class="title">Less Cool Project</span>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit commodi, laboriosam placeat sequi odit fuga quisquam explicabo voluptatum quasi. Ea magni harum cumque a, temporibus recusandae hic similique laborum.
+                    </div>
+                    <div class="project-buttons">
+                        <div class="star"></div>
+                        <div class="watch"></div>
+                        <div class="share"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <span class="title">Impossible App</span>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro animi, enim accusamus nihil unde?
+                    </div>
+                    <div class="project-buttons">
+                        <button aria-label="Star" class="star"></button>
+                        <button aria-label="Add to Watchlist" class="watch"></button>
+                        <button aria-label="Share" class="share"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="side-content">
+                <div class="announcements">
+                    <h2>Announcements:</h2>
+                    <div class="news-1">
+                        <h3>Site Maintenance</h3>
+                        <div class="news-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, illum?</div>
+                    </div>
+                    <div class="news-2">
+                        <h3>Community Share Day</h3>
+                        <div class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis animi non eveniet!</div>
+                    </div>
+                    <div class="news-3">
+                        <h3>Updated Privacy Policy</h3>
+                        <div class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum possimus reiciendis recusandae deserunt veritatis nulla.</div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h2>Trending:</h2>
+                    <div class="user-1">
+                        <div class="user-profile-pic user-1"></div>
+                        <span class="user-id">@tegan</span>
+                        <span class="user-tag">World Peace Builder</span>
+                    </div>
+                    <div class="user-2">
+                        <div class="user-profile-pic user-2"></div>
+                        <span class="user-id">@moodymadosy</span>
+                        <span class="user-tag">Super Cool Project</span>
+                    </div>
+                    <div class="user-3">
+                        <div class="user-profile-pic user-3"></div>
+                        <span class="user-id">@kendall</span>
+                        <span class="user-tag">Life Changing App</span>
+                    </div>
+                    <div class="user-4">
+                        <div class="user-profile-pic user-4"></div>
+                        <span class="user-id">@alex</span>
+                        <span class="user-tag">No Traffic Maker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
